@@ -32,6 +32,7 @@ header{
     min-height: 80vh;
     display: flex;
     align-items: center;
+    height: 100vh;
 }
 
 .menu{
@@ -283,6 +284,10 @@ p{
     margin-bottom: 15px;
 }
 
+.blog-1 img:hover {
+    filter: brightness(70%);
+}
+
 .blog-1 h3{
     font-size: 25px;
     color: #323337;
@@ -309,6 +314,10 @@ p{
     color: #c5c5c5;
     display: block;
     margin-bottom: 15px;
+} 
+
+.link a:hover {
+    color: #777777;
 } 
 
 @media(max-width:991px){
